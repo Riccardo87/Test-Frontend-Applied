@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Test Frontend Applied</title>
+  </head>
+  <body>
+    <header id="header">
+        <picture>
+          <img class="logo" src="image/image.png" alt="logo" />
+        </picture>
+          <nav class="nav">
+            <input type="checkbox" id="hamburger" />
+            <label for="hamburger" class="hamburger-line"></label>
+            <div class="menu">
+              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="#" target="_blank">ABOUT</a></li>
+              <li><a href="#" target="_blank">PROJECT</a></li>
+              <li><a href="#" target="_blank">CONTACT</a></li>
+              <li>
+                <a><i class="fa fa-search"> </i></a>
+              </li>
+            </div>
+          </nav>
+        </label>
+    </header>
+    <main id="main">
+      <section class="slider-wrapper">
+        <ul class="slides-container" id="slides-container">
+          <li class="slide">
+            <img src="assets/1.jpg" alt="nightly image" />
+          </li>
+          <li class="slide">
+            <img src="assets/2.jpg" alt="sea image" />
+          </li>
+          <li class="slide">
+            <img src="assets/3.jpg" alt="street image" />
+          </li>
+          <li class="slide">
+            <img src="assets/4.jpg" alt="beach image" />
+          </li>
+        </ul>
+        <button class="slide-arrow" id="slide-arrow-prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </section>
+      <section class="data-user">
+        <div id="container-card"></div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="main-footer">
+        <div class="contact-details">
+          <h1>Contact Us</h1>
+          <li>
+            <i class="fa fa-location-dot"></i>
+            <a href="https://goo.gl/maps/hQSS8Wo4rDpMarVH6" target="_blank">Via Speranza, 35, 40068 San Lazzaro di Savena, Bologna</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:info@applied.it">info@applied.it</a>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <a href="tel:+390515880083">+39 0515880083</a>
+          </li>
+        </div>
+        <div class="site">
+          <h1>About</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <h1>Social Media</h1>
+          <div class="brands">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <section class="copiright">© Riccardo Vancini Copyright 2023 All Rights Reserved</section>
+    </footer>
+    <script src="script/carosel.js"></script>
+    <script src="script/dataFetch.js"></script>
+  </body>
+</html>
