@@ -335,14 +335,13 @@ body {
   margin-bottom: 1rem;
 }
 
-.main-footer h2 {
-  color: #f1f1f1;
-  font-weight: 500;
-}
-
 .main-footer ul li a {
   color: #f1f1f1;
   text-decoration: none;
+}
+
+.main-footer ul li a:hover {
+  color: #219ebc;
 }
 
 .copiright {
@@ -379,6 +378,10 @@ body {
   text-decoration: none;
   color: #f1f1f1;
   font-size: 1.5rem;
+}
+
+.brands a:hover {
+  color: #219ebc;
 }
 
 .site ul li {
