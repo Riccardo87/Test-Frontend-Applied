@@ -496,7 +496,7 @@ body {
   #container-card .card {
     width: 15rem;
     margin: 1rem;
-    min-height: 31rem;
+    min-height: 32rem;
   }
 
   .card .fa-circle {
